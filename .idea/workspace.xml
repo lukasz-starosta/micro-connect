@@ -26,10 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f91258-a96e-4a54-b8f4-9ac56bd9ca2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dist/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iT162a1QOz39nV3r9bMqbuqzzx" />
@@ -61,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -69,6 +73,23 @@
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\lib\src" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\lib" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lib/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +101,30 @@
       <updated>1601916590654</updated>
       <workItem from="1601916592673" duration="38000" />
       <workItem from="1601916708749" duration="1428000" />
+      <workItem from="1602089413751" duration="2238000" />
     </task>
+    <task id="LOCAL-00001" summary="Basic webpack and .idea setup">
+      <created>1601918779831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601918779831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Basic webpack and .idea setup">
+      <created>1601918808297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601918808297</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Workspace">
+      <created>1601918830319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601918830319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,27 +135,55 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="initial-setup" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Basic webpack and .idea setup" />
+    <MESSAGE value="Workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="225" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1601916737459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="560" y="225" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601916737459" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1601916817259">
+    <state x="461" y="169" key="SettingsEditor" timestamp="1602090593294">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601916817259" />
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602090593294" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601917871702">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601917871702" />
+    <state x="807" y="438" key="VCS.ChangelistChooser" timestamp="1601918817023">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="807" y="438" key="VCS.ChangelistChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601918817023" />
+    <state x="815" y="439" key="VCS.EditChangelistDialog" timestamp="1601918839626">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="815" y="439" key="VCS.EditChangelistDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601918839626" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601918856272">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601918856272" />
   </component>
 </project>
