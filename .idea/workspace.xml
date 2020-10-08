@@ -26,10 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f91258-a96e-4a54-b8f4-9ac56bd9ca2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +106,7 @@
       <workItem from="1601916592673" duration="38000" />
       <workItem from="1601916708749" duration="1428000" />
       <workItem from="1602089413751" duration="2570000" />
-      <workItem from="1602172645150" duration="696000" />
+      <workItem from="1602172645150" duration="1794000" />
     </task>
     <task id="LOCAL-00001" summary="Basic webpack and .idea setup">
       <created>1601918779831</created>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602095441166</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add TypeScript configuration">
+      <created>1602173537422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602173537422</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,29 +178,30 @@
     <MESSAGE value="Basic webpack and .idea setup" />
     <MESSAGE value="Workspace" />
     <MESSAGE value="HMR configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="HMR configuration" />
+    <MESSAGE value="Add TypeScript configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TypeScript configuration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="225" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1601916737459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="560" y="225" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601916737459" />
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1602095483081">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1602174441592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602095483081" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1602095483081">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174441592" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1602174441592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602095483081" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1602095483081">
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174441592" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1602174441592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602095483081" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1602095483081">
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174441592" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1602174441592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602095483081" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174441592" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1602090593294">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -209,9 +218,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="815" y="439" key="VCS.EditChangelistDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601918839626" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1602095464068">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1602173558004">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602095464068" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602173558004" />
   </component>
 </project>
