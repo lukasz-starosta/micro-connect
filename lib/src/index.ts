@@ -1,2 +1,3 @@
-const root = document.getElementById('root');
-if (root) root.innerText = "test";
+import Component from './component';
+
+export default Component;

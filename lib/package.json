@@ -1,8 +1,10 @@
 {
-  "name": "micro-connect",
-  "version": "0.0.1",
+  "name": "@lukasz-starosta/micro-connect",
+  "version": "0.0.3",
   "description": "A library allowing for development of client applications based on microservices architecture incorporating technologically independent components.",
-  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open",
@@ -12,6 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/lukasz-starosta/micro-connect.git"
   },
+  "types": "./types/index.d.ts",
+  "main": "./dist/index.js",
   "keywords": [
     "micro-frontends"
   ],
