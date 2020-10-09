@@ -20,17 +20,46 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:initial-setup" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:first-library-deploy" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f91258-a96e-4a54-b8f4-9ac56bd9ca2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tsconfig.json" afterDir="false" />
+    </list>
+    <list id="ba4abeae-9ade-4a78-9807-0b8c80aa8dfb" name="Uncommitted changes before Checkout at 09 10 2020 17 36 [Default Changelist]" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/serviceWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dist/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,19 +95,44 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/starters/typescript-react" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="ts.external.directory.path" value="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\lib\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react\src" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\lib\src" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lib/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/starters/typescript-react/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/lib/package.json" />
       <command value="run" />
@@ -91,6 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -106,7 +162,8 @@
       <workItem from="1601916592673" duration="38000" />
       <workItem from="1601916708749" duration="1428000" />
       <workItem from="1602089413751" duration="2570000" />
-      <workItem from="1602172645150" duration="1794000" />
+      <workItem from="1602172645150" duration="6976000" />
+      <workItem from="1602253187700" duration="4484000" />
     </task>
     <task id="LOCAL-00001" summary="Basic webpack and .idea setup">
       <created>1601918779831</created>
@@ -143,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602173537422</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Move HTML file to dist on compile, gitignore dist">
+      <created>1602174573462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602174573462</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +224,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="initial-setup" />
+                        <option value="first-library-deploy" />
                       </list>
                     </value>
                   </entry>
@@ -179,33 +243,34 @@
     <MESSAGE value="Workspace" />
     <MESSAGE value="HMR configuration" />
     <MESSAGE value="Add TypeScript configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TypeScript configuration" />
+    <MESSAGE value="Move HTML file to dist on compile, gitignore dist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move HTML file to dist on compile, gitignore dist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="225" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1601916737459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="560" y="225" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601916737459" />
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1602174441592">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1602261590283">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174441592" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1602174441592">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602261590283" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1602261590283">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174441592" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1602174441592">
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602261590283" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1602261590283">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174441592" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1602174441592">
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602261590283" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1602261590283">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174441592" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1602090593294">
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602261590283" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1602176891294">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602090593294" />
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602176891294" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601917871702">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -218,9 +283,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="815" y="439" key="VCS.EditChangelistDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601918839626" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1602173558004">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1602174578234">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602173558004" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602174578234" />
+    <state x="623" y="227" key="search.everywhere.popup" timestamp="1602254106607">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602254106607" />
+    <state x="653" y="276" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1602261424177">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="653" y="276" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1602261424177" />
   </component>
 </project>
