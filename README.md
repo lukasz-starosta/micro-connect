@@ -27,21 +27,28 @@ Let us start easy with React. By the `final mount` I mean invoking the method `R
 From this we can deduce that the hosting platform needs to clearly provide a parent element to which the component should be mounted.  
 So while testing our components should not use an internal `public` folder with `index.html` but instead this `index.html` should be taken from the `lib`. How to do it?
 
-### The two ways of mounting
+### Mounting the component (POC, needs testing)
 
-a) in development mode - **using the `lib`'s `index.html`**
-    This is useful when you want to test how the component works when mounted using the lib. Here we usually mount to `<div id="root"></div>`
-b) in production mode - **from the hosting platform's React application**
+a) in production mode - **from the hosting platform's React application**
     The component will be imported through `import YOUR_COMPONENT from 'YOUR_PACKAGE'`, but we need to specify the element to which it should be mounted.  
-    So this should look like so (using a Component React element) `<Component src={YOUR_COMPONENT} parentElement={...} />`
-    But how to use this approach in development?
------ how to do this
+    So this should look like so (using a `Component` React element) `<Component src={YOUR_COMPONENT} parentElement={...} />`
     
-### How to mount a component in the `lib`'s `index.html`?
- 
-a) configure `webpack-dev-server` to use the `index.html` from `node_modules/@lukasz-starosta/micro-connect/dist/index.html`
-    this is only temporary and I see no clear way how to proceed from this to mounting the component in a hosting platform
------ add more options
-
+b) in development mode - **using the `lib`'s simple React application**
+    This is useful when you want to test how the component works when mounted using the lib.
+    
+    But how to use this approach in development?
+    To be more clear: how to make the library's `Component` in a simple hosting app import our local component?  
+    
+    1) Specify a constant URL from which the component will be fetched - say localhost:3000/component.js - the built version of the component
+       (The external component itself will be loaded into a specified parent element (`<div id="root"></div>` in development))
+    2) Add a script tag with the URL to the `body` (this makes the component's namespace available through `window.component`
+    3) Execute `window.component.mount(parentElement)`
+     
+    The above should also be the workflow for a production mode app.
+    
+From the notes above we can see that we need in fact two separate functionalities exposed from the `lib`.
+1) a `ComponentManager` (name subject to change) class, which will wrap the actual component and add the `mount`, `unmount`, etc. methods
+2) a `Component` React component, which will be responsible for rendering it into the application
+       
 ## Milestones
 Refer to: [Milestones](https://github.com/lukasz-starosta/micro-connect/milestones)
