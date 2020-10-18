@@ -1,10 +1,10 @@
 type ICreateElement = (parentElement: HTMLElement) => void;
 
-interface IConstructorArgs {
+export interface IConstructorArgs {
   createElement: ICreateElement;
 }
 
-export default class Component {
+export default class ComponentManager {
   element: any = undefined;
 
   constructor({createElement}: IConstructorArgs) {
