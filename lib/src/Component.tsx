@@ -1,24 +1,23 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useRef} from 'react';
+import ComponentWrapper from "./ComponentWrapper";
 
 export interface IComponentProps {
-  // TODO: type should be URL I think
-  src: string;
+  component: ComponentWrapper;
 }
 
 
-function Component({src}: IComponentProps): JSX.Element {
+function Component({component}: IComponentProps): JSX.Element {
+  // TODO: fix using hooks (probably 2 versions of react, need to alias it)
+  const elementRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
-    if (document.body.querySelectorAll(`script[src="${src}"]`)) {
-      return;
-    }
 
-    const script = document.createElement('script');
-    script.src = src;
-    document.body.appendChild(script);
-  }, [])
+  // useEffect(() => {
+  //   if (elementRef.current) {
+  //     component.mount(elementRef.current);
+  //   }
+  // }, []);
 
-  return <div>wuja</div>;
+  return <div>test</div>;
 }
 
 export default Component;

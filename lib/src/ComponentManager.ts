@@ -1,23 +1,22 @@
-type ICreateElement = (parentElement: HTMLElement) => void;
-
-export interface IConstructorArgs {
-  createElement: ICreateElement;
-}
+import ComponentWrapper from "./ComponentWrapper";
 
 export default class ComponentManager {
-  element: any = undefined;
+  private static instance: ComponentManager;
+  private components: Map<string, ComponentWrapper> = new Map();
 
-  constructor({createElement}: IConstructorArgs) {
-    this.mount(createElement)
+  private constructor() {
   }
 
-  mount(createElement: ICreateElement) {
-    const root = document.getElementById('root');
-    if (!root) {
-      console.error('Could not find element with id root. Mounting aborted.');
-      return;
+  static getInstance() {
+    if (!this.instance) {
+      this.instance = new ComponentManager();
     }
+    return this.instance;
+  }
 
-    createElement(root);
+  public registerComponent(component: ComponentWrapper) {
+    this.components.set(component.uuid, component);
+
+    console.log(this.components);
   }
 }

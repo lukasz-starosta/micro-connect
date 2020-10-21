@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {ComponentManager, Component} from "@lukasz-starosta/micro-connect";
+import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
+import App from "./App";
 
 const StrictModeApp = () => {
-  console.log('wuja')
   return <React.StrictMode>
-    <Component src="/index.bundle.js"/>
+    <App/>
   </React.StrictMode>
 }
 
-new ComponentManager({createElement: (parentElement: HTMLElement) => ReactDOM.render(<StrictModeApp />, parentElement)})
+export default new ComponentWrapper({
+  mountElement: (parentElement: HTMLElement) => ReactDOM.render(<StrictModeApp/>, parentElement),
+  unmountElement: (parentElement => {console.info(`unmount from ${parentElement}`)})
+})
