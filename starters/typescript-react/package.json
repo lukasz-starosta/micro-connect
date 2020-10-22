@@ -15,7 +15,8 @@
     "react-scripts": "3.4.3",
     "typescript": "^3.7.5"
   },
-  "main": "./dist/index.bundle.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "start": "webpack-dev-server --config ./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
     "build": "webpack --config ./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",

@@ -2,8 +2,6 @@ import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Component} from "@lukasz-starosta/micro-connect";
-// TODO: add proper types
-// @ts-ignore
 import TestComponent from 'typescript-react';
 
 function App() {
@@ -14,7 +12,7 @@ function App() {
         <p>
           Hosting app
         </p>
-        <Component component={{} as any}/>
+        <Component component={TestComponent}/>
       </header>
     </div>
   );
