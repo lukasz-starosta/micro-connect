@@ -7,7 +7,6 @@ export interface IComponentProps {
 
 
 function Component({component}: IComponentProps) {
-  // TODO: fix using hooks (probably 2 versions of react, need to alias it)
   const elementRef = useRef<HTMLDivElement | null>(null);
 
 
