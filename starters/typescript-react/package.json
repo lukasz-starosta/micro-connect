@@ -1,9 +1,11 @@
 {
-  "name": "typescript-react",
+  "name": "@lukasz-starosta/typescript-react",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
-    "@lukasz-starosta/micro-connect": "0.0.3",
+    "@lukasz-starosta/micro-connect": "0.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -11,14 +13,21 @@
     "@types/node": "^12.12.64",
     "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-scripts": "3.4.3",
     "typescript": "^3.7.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-starosta/micro-connect.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "prepare": "npm run build",
+    "start": "webpack-dev-server --env.entry ./src/index.tsx --config ./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
+    "build": "webpack --env.production --env.entry ./src/index.tsx --config ./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,5 +45,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "ts-loader": "^8.0.5",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }

@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import Component from '@lukasz-starosta/micro-connect';
+import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
+import App from "./App";
 
-const StrictModeApp =
-  <React.StrictMode>
+const StrictModeApp = () => {
+  return <React.StrictMode>
     <App/>
   </React.StrictMode>
+}
 
-new Component({createElement: (parentElement: HTMLElement) => ReactDOM.render(StrictModeApp, parentElement)})
+ReactDOM.render(<StrictModeApp />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+export default new ComponentWrapper({
+  mountElement: (parentElement: HTMLElement) => ReactDOM.render(<StrictModeApp/>, parentElement),
+  unmountElement: (parentElement => {console.info(`unmount from ${parentElement}`)})
+})
