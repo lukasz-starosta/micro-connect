@@ -1,6 +1,6 @@
 {
   "name": "@lukasz-starosta/micro-connect",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A library allowing for development of client applications based on microservices architecture incorporating technologically independent components.",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

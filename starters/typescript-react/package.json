@@ -1,8 +1,11 @@
 {
-  "name": "typescript-react",
+  "name": "@lukasz-starosta/typescript-react",
   "version": "0.1.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
-    "@lukasz-starosta/micro-connect": "0.0.3",
+    "@lukasz-starosta/micro-connect": "0.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -15,11 +18,16 @@
     "react-scripts": "3.4.3",
     "typescript": "^3.7.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-starosta/micro-connect.git"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "start": "webpack-dev-server --config ./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
-    "build": "webpack --config ./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
+    "prepare": "npm run build",
+    "start": "webpack-dev-server --env.entry ./src/index.tsx --config ./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
+    "build": "webpack --env.production --env.entry ./src/index.tsx --config ./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

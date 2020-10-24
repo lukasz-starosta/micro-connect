@@ -1,8 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Component} from "@lukasz-starosta/micro-connect";
-import TestComponent from 'typescript-react';
+import TestComponent from '@lukasz-starosta/typescript-react';
 
 function App() {
   return (
