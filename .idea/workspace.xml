@@ -22,31 +22,31 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:first-library-deploy" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f91258-a96e-4a54-b8f4-9ac56bd9ca2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/starters/typescript-react/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/typescript-react/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/javascript/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/javascript/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/javascript/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/javascript/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/javascript/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/javascript/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/javascript/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/host/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/host/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/host/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/serviceWorker.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/lib/.npmignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webpack.config.build.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webpack.config.build.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/starters/typescript-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starters/typescript-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
       <list>
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -65,7 +66,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="first-library-deploy" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,23 +85,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/starters/typescript-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/starters/javascript" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\host\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react" />
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\javascript\src" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react\src" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\lib\src" />
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\javascript" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build">
@@ -166,6 +168,8 @@
       <workItem from="1603380355086" duration="4559000" />
       <workItem from="1603463998194" duration="2816000" />
       <workItem from="1603535641862" duration="2781000" />
+      <workItem from="1603972280319" duration="2241000" />
+      <workItem from="1603983756071" duration="3284000" />
     </task>
     <task id="LOCAL-00001" summary="Basic webpack and .idea setup">
       <created>1601918779831</created>
@@ -244,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603395865850</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Remove unused comments">
+      <created>1603539370309</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603539370309</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +272,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="first-library-deploy" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -286,7 +297,8 @@
     <MESSAGE value="Component can be loaded into the library index, mounting does not work yet" />
     <MESSAGE value="Not complete full configuration. Remaining proper mount with hooks and cleanup" />
     <MESSAGE value="Mounting the component works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mounting the component works" />
+    <MESSAGE value="Remove unused comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="799" y="434" key="#VCS_History_Cache_Settings" timestamp="1603295197376">
@@ -385,10 +397,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="815" y="439" key="VCS.EditChangelistDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601918839626" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603395868856">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603539371490">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603395868856" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603539371490" />
     <state x="667" y="124" width="585" height="801" key="find.popup" timestamp="1603294005501">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
