@@ -1,11 +1,11 @@
 {
-  "name": "@lukasz-starosta/typescript-react",
+  "name": "@lukasz-starosta/typescript-react-starter",
   "version": "0.1.2",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@lukasz-starosta/micro-connect": "^0.1.1",
+    "@lukasz-starosta/micro-connect": "^0.1.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -27,7 +27,7 @@
   "scripts": {
     "prepare": "npm run build",
     "start": "webpack-dev-server --env.entry=./src/index.tsx --config=./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
-    "build": "webpack --env.production --env.entry=./src/index.tsx --env.library=typescript-react --config=./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
+    "build": "webpack --env.production --env.entry=./src/index.tsx --env.library=typescript-react-starter --config=./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
