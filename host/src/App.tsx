@@ -2,9 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Component} from "@lukasz-starosta/micro-connect";
-// import TSReactComponent from '@lukasz-starosta/typescript-react';
-//@ts-ignore
-import JSComponent from '@lukasz-starosta/javascript';
+import TSReactComponent from '@lukasz-starosta/typescript-react-starter';
+//@ts-ignore TODO: solve
+import JSComponent from '@lukasz-starosta/javascript-starter';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <p>
           Hosting app
         </p>
+        <Component component={TSReactComponent}/>
         <Component component={JSComponent}/>
       </header>
     </div>
