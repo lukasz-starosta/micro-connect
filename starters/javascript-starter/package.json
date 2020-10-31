@@ -1,11 +1,12 @@
 {
   "name": "@lukasz-starosta/javascript-starter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript starter",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "start": "webpack-dev-server --env.entry=./src/index.js --config=./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",

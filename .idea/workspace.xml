@@ -30,40 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f91258-a96e-4a54-b8f4-9ac56bd9ca2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/starters/javascript-starter/types/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/host/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/host/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/serviceWorker.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/javascript-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,16 +44,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="add-javascript-starter" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,17 +79,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\javascript\src" />
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react" />
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters" />
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react\src" />
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\lib\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\javascript" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\javascript-starter\dist" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\javascript\src" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build">
@@ -188,7 +158,8 @@
       <workItem from="1603972280319" duration="2241000" />
       <workItem from="1603983756071" duration="4020000" />
       <workItem from="1604072461807" duration="967000" />
-      <workItem from="1604073506022" duration="491000" />
+      <workItem from="1604073506022" duration="890000" />
+      <workItem from="1604138346656" duration="1123000" />
     </task>
     <task id="LOCAL-00001" summary="Basic webpack and .idea setup">
       <created>1601918779831</created>
@@ -281,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603987513301</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Renamed packages with better names, ensured compatibility">
+      <created>1604074340221</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604074340221</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Renamed packages with better names, ensured compatibility (add unversioned)">
+      <created>1604074383826</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604074383826</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +310,9 @@
     <MESSAGE value="Mounting the component works" />
     <MESSAGE value="Remove unused comments" />
     <MESSAGE value="Created a JavaScript starter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a JavaScript starter" />
+    <MESSAGE value="Renamed packages with better names, ensured compatibility" />
+    <MESSAGE value="Renamed packages with better names, ensured compatibility (add unversioned)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed packages with better names, ensured compatibility (add unversioned)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="799" y="434" key="#VCS_History_Cache_Settings" timestamp="1603295197376">
@@ -424,10 +411,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="815" y="439" key="VCS.EditChangelistDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1601918839626" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603987517782">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604074386117">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1603987517782" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604074386117" />
     <state x="667" y="124" width="585" height="801" key="find.popup" timestamp="1603294005501">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import {Component} from "@lukasz-starosta/micro-connect";
 import TSReactComponent from '@lukasz-starosta/typescript-react-starter';
-//@ts-ignore TODO: solve
 import JSComponent from '@lukasz-starosta/javascript-starter';
 
 function App() {
