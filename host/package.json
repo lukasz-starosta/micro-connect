@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@lukasz-starosta/angular-starter": "0.0.3",
     "@lukasz-starosta/javascript-starter": "^0.1.2",
     "@lukasz-starosta/micro-connect": "^0.1.2",
     "@lukasz-starosta/typescript-react-starter": "^0.1.2",
