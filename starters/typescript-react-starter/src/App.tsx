@@ -1,10 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function App() {
+  const [count, setCount] = useState(0);
   return (
-    <p>
-      TypeScript React template.
-    </p>
+    <button onClick={() => setCount(count + 1)}>Click {count}</button>
   );
 }
 
