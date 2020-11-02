@@ -1,12 +1,12 @@
 {
   "name": "@lukasz-starosta/micro-connect",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "A library allowing for development of client applications based on microservices architecture incorporating technologically independent components.",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "rmdir /q/s dist && rmdir /q/s types && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open",
     "build": "webpack --config webpack.config.build.js"
