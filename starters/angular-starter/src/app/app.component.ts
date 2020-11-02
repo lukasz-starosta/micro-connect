@@ -1,18 +1,16 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'starter-component',
   template: `
-    <starter-component></starter-component>
+    Angular Template
   `,
   styles: []
 })
 export class AppComponent implements OnInit {
-
   constructor() {
   }
 
   ngOnInit(): void {
   }
-
 }

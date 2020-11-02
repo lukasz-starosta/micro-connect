@@ -1,11 +1,11 @@
 {
   "name": "@lukasz-starosta/angular-starter",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "scripts": {
     "prepare": "npm run build",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-hashing none && cd dist/angular-starter && type main.js polyfills.js runtime.js scripts.js > component.js",
+    "build": "ng build --prod --output-hashing none && cd dist && type runtime.js scripts.js main.js > index.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -17,8 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/lukasz-starosta/micro-connect.git"
   },
-  "main": "./dist/angular-starter/component.js",
-  "types": "./dist/starter/lukasz-starosta-angular-starter.d.ts",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
   "dependencies": {
     "@angular/animations": "~10.2.0",
     "@angular/common": "~10.2.0",
@@ -37,12 +37,13 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1002.0",
+    "@angular-builders/custom-webpack": "^10.0.1",
+    "@angular-devkit/build-angular": "^0.1002.0",
     "@angular/cli": "~10.2.0",
     "@angular/compiler-cli": "~10.2.0",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",

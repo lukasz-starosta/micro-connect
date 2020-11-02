@@ -15,9 +15,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "outputPath": "dist/angular-starter",
+            "customWebpackConfig": {
+              "path": "./webpack.config.js"
+            },
+            "outputPath": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -124,46 +127,6 @@
             "production": {
               "devServerTarget": "angular-starter:serve:production"
             }
-          }
-        }
-      }
-    },
-    "starter": {
-      "projectType": "library",
-      "root": "projects/starter",
-      "sourceRoot": "projects/starter/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "tsConfig": "projects/starter/tsconfig.lib.json",
-            "project": "projects/starter/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/starter/tsconfig.lib.prod.json"
-            }
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/starter/src/test.ts",
-            "tsConfig": "projects/starter/tsconfig.spec.json",
-            "karmaConfig": "projects/starter/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/starter/tsconfig.lib.json",
-              "projects/starter/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
           }
         }
       }

@@ -2,9 +2,10 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist",
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
+    "declarationDir": "./dist",
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
@@ -15,16 +16,6 @@
     "lib": [
       "es2018",
       "dom"
-    ],
-    "paths": {
-      "components": [
-        "dist/components/components",
-        "dist/components"
-      ],
-      "starter": [
-        "dist/starter/starter",
-        "dist/starter"
-      ]
-    }
+    ]
   }
 }

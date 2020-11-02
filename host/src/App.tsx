@@ -2,10 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Component} from "@lukasz-starosta/micro-connect";
-// import TSReactComponent from '@lukasz-starosta/typescript-react-starter';
-// import JSComponent from '@lukasz-starosta/javascript-starter';
-// @ts-ignore
-import { AngularComponent } from '@lukasz-starosta/angular-starter';
+import TSReactComponent from '@lukasz-starosta/typescript-react-starter';
+import JSComponent from '@lukasz-starosta/javascript-starter';
+import AngularComponent from '@lukasz-starosta/angular-starter';
 
 function App() {
   return (
@@ -15,8 +14,8 @@ function App() {
         <p>
           Hosting app
         </p>
-        {/*<Component component={TSReactComponent}/>*/}
-        {/*<Component component={JSComponent}/>*/}
+        <Component component={TSReactComponent}/>
+        <Component component={JSComponent}/>
         <Component component={AngularComponent}/>
       </header>
     </div>

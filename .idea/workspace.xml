@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -27,59 +30,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/ng-package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/public-api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/tsconfig.lib.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/tsconfig.lib.prod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/projects/starter/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starters/angular-starter/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/host/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/host/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/angular-starter/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/angular-starter/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/ng-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/lib/starter.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/public-api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/tsconfig.lib.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/tsconfig.lib.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/projects/starter/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -111,7 +99,7 @@
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\angular-starter" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/starters/angular-starter/package.json" />
       <command value="run" />
@@ -122,9 +110,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/starters/angular-starter/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -137,8 +136,18 @@
       <option name="presentableId" value="Default" />
       <updated>1604146264308</updated>
       <workItem from="1604146267086" duration="7281000" />
-      <workItem from="1604233674047" duration="6110000" />
+      <workItem from="1604233674047" duration="9329000" />
+      <workItem from="1604332405980" duration="5532000" />
+      <workItem from="1604338603679" duration="1136000" />
     </task>
+    <task id="LOCAL-00001" summary="Reference working in dev angular build">
+      <created>1604241809928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604241809928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,31 +179,89 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Reference working in dev angular build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reference working in dev angular build" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604145969920">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604145969920" />
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1604241280695">
+    <state width="459" height="588" key="GridCell.Tab.0.bottom" timestamp="1604339507557">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604241280695" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1604241280695">
+    <state width="459" height="588" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604339507557" />
+    <state width="459" height="588" key="GridCell.Tab.0.center" timestamp="1604339507557">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604241280695" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1604241280695">
+    <state width="459" height="588" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604339507557" />
+    <state width="459" height="588" key="GridCell.Tab.0.left" timestamp="1604339507557">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604241280695" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1604241280695">
+    <state width="459" height="588" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604339507556" />
+    <state width="459" height="588" key="GridCell.Tab.0.right" timestamp="1604339507557">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604241280695" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604238402023">
+    <state width="459" height="588" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604339507557" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1604338509738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604238402023" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1604338509737">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509737" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1604338509737">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509737" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1604338509737">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509737" />
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1604338509738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1604338509738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1604338509738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1604338509738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state width="1877" height="352" key="GridCell.Tab.3.bottom" timestamp="1604338509738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.3.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state width="1877" height="352" key="GridCell.Tab.3.center" timestamp="1604338509738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.3.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state width="1877" height="352" key="GridCell.Tab.3.left" timestamp="1604338509738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.3.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state width="1877" height="352" key="GridCell.Tab.3.right" timestamp="1604338509738">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.3.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
+    <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1604335671495">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="258" width="585" height="534" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604335671495" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1604242155524">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604242155524" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604336496762">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604336496762" />
   </component>
 </project>
