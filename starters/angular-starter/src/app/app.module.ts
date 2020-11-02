@@ -9,8 +9,7 @@ import {AppComponent} from "./app.component";
   imports: [
     BrowserModule
   ],
-  providers: [],
-  entryComponents: []
+  providers: []
 })
 export class AppModule implements DoBootstrap {
   constructor(private injector: Injector) {
