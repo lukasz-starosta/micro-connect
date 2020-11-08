@@ -26,16 +26,14 @@ A documentation application created in React composed of many independent mini-a
 Let us start easy with React. By the `final mount` I mean invoking the method `ReactDOM.render(component, parent)`, where `parent` is usually `<div id="root"></div>`. So despite what happens before the final mount, this method is what counts to us eventually.  
 From this we can deduce that the hosting platform needs to clearly provide a parent element to which the component should be mounted.  
 
-### Mounting the component (POC, needs testing)
-
-(maybe we can use packages instead of URI, this will have to be checked out)
+### Mounting the component
 
 a) in production mode - **from the hosting platform's React application**
     The component will be imported through a npm package, but we need to specify the element to which it should be mounted.  
     So this should look like so (using a `Component` React element) `<Component src={Package} parentElement={...} />`
     It will be important to protect the code against attacks which would cause malicious scripts to be executed.
     
-b) in development mode - **using the `lib`'s simple React application**
+b) in development mode - **self hosted**
     This is useful when you want to test how the component works when mounted using the lib.
     We can create a simple hosting React app in the repo and run it (e.g. on localhost:3001) with the hardcoded URI to our component built through `webpack-dev-server`.
     Then run our component (which can be also tested alone) at localhost:3000
