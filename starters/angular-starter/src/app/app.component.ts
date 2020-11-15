@@ -1,16 +1,14 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'starter-component',
   template: `
-    Angular Template
+    <p>Angular Template</p>
   `,
   styles: []
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   constructor() {
-  }
-
-  ngOnInit(): void {
   }
 }

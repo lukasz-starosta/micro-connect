@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@lukasz-starosta/angular-starter": "^0.1.0",
-    "@lukasz-starosta/javascript-starter": "^0.1.2",
-    "@lukasz-starosta/micro-connect": "^0.1.5",
-    "@lukasz-starosta/typescript-react-starter": "^0.1.2",
+    "@lukasz-starosta/javascript-starter": "^0.1.3",
+    "@lukasz-starosta/micro-connect": "^0.1.6",
+    "@lukasz-starosta/typescript-react-starter": "^0.1.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",

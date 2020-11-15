@@ -1,10 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function App() {
   return (
-    <p>
-      TypeScript React template.
-    </p>
+    <p>React Template</p>
   );
 }
 

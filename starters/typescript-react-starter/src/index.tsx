@@ -8,10 +8,13 @@ const StrictModeApp = () => {
     <App/>
   </React.StrictMode>
 }
-
-ReactDOM.render(<StrictModeApp />, document.getElementById('root'));
+if (process.env.NODE_ENV === 'development') {
+  ReactDOM.render(<StrictModeApp/>, document.getElementById('root'));
+}
 
 export default new ComponentWrapper({
   mountElement: (parentElement: HTMLElement) => ReactDOM.render(<StrictModeApp/>, parentElement),
-  unmountElement: (parentElement => {console.info(`unmount from ${parentElement}`)})
+  unmountElement: (parentElement => {
+    console.info(`unmount from ${parentElement}`)
+  })
 })

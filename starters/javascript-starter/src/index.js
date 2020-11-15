@@ -1,11 +1,19 @@
-import { ComponentWrapper } from "@lukasz-starosta/micro-connect";
+import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
 
-const element = document.createElement('p');
-element.innerText = 'JavaScript Template';
+function createElement() {
+  const element = document.createElement('p');
+  element.innerText = `JavaScript Template`;
 
-document.body.appendChild(element);
+  return element;
+}
+
+if (process.env.NODE_ENV === 'development') {
+  document.body.appendChild(createElement());
+}
 
 export default new ComponentWrapper({
-  mountElement: (parentElement) => parentElement.appendChild(element),
-  unmountElement: (parentElement => {console.info(`unmount from ${parentElement}`)})
+  mountElement: (parentElement) => parentElement.appendChild(createElement()),
+  unmountElement: (parentElement => {
+    console.info(`unmount from ${parentElement}`)
+  })
 })

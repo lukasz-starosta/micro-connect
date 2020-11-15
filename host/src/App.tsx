@@ -14,9 +14,21 @@ function App() {
         <p>
           Hosting app
         </p>
-        <Component component={TSReactComponent}/>
-        <Component component={JSComponent}/>
-        <Component component={AngularComponent}/>
+        <div>
+          <h2>React</h2>
+          <Component component={TSReactComponent}/>
+          <Component component={TSReactComponent}/>
+        </div>
+        <div>
+          <h2>JavaScript</h2>
+          <Component component={JSComponent}/>
+          <Component component={JSComponent}/>
+        </div>
+        <div>
+          <h2>Angular</h2>
+          <Component component={AngularComponent}/>
+          <Component component={AngularComponent}/>
+        </div>
       </header>
     </div>
   );
