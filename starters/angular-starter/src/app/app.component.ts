@@ -1,21 +1,14 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'starter-component',
   template: `
-    <button (click)="click()">Click {{num}}</button>
+    <p>Angular Template</p>
   `,
   styles: []
 })
-export class AppComponent implements OnInit {
-  public num: number = 0;
+export class AppComponent {
   constructor() {
-  }
-
-  ngOnInit(): void {
-  }
-
-  click() {
-    this.num++;
   }
 }

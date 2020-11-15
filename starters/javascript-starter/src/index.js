@@ -1,14 +1,14 @@
 import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
 
 function createElement() {
-  const element = document.createElement('button');
-  element.innerText = `0`;
-  element.onclick = () => {
-    let n = parseInt(element.innerText)
-    element.innerText = (++n).toString();
-  }
+  const element = document.createElement('p');
+  element.innerText = `JavaScript Template`;
 
   return element;
+}
+
+if (process.env.NODE_ENV === 'development') {
+  document.body.appendChild(createElement());
 }
 
 export default new ComponentWrapper({

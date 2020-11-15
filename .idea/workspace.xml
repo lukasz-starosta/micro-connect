@@ -22,32 +22,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:demo" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/host/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/host/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/host/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/ComponentManager.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/ComponentWrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/ComponentWrapper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/angular-starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/angular-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/angular-starter/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript-starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/javascript-starter/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react-starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react-starter/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react-starter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starters/typescript-react-starter/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react-starter/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,22 +177,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604145969920" />
-    <state width="459" height="588" key="GridCell.Tab.0.bottom" timestamp="1604342573407">
+    <state width="459" height="566" key="GridCell.Tab.0.bottom" timestamp="1604941436814">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="588" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604342573407" />
-    <state width="459" height="588" key="GridCell.Tab.0.center" timestamp="1604342573407">
+    <state width="459" height="566" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604941436814" />
+    <state width="459" height="566" key="GridCell.Tab.0.center" timestamp="1604941436813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="588" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604342573407" />
-    <state width="459" height="588" key="GridCell.Tab.0.left" timestamp="1604342573407">
+    <state width="459" height="566" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604941436813" />
+    <state width="459" height="566" key="GridCell.Tab.0.left" timestamp="1604941436813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="588" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604342573407" />
-    <state width="459" height="588" key="GridCell.Tab.0.right" timestamp="1604342573407">
+    <state width="459" height="566" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604941436813" />
+    <state width="459" height="566" key="GridCell.Tab.0.right" timestamp="1604941436813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="588" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604342573407" />
+    <state width="459" height="566" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604941436813" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1604338509738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -259,10 +241,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.3.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
-    <state x="703" y="227" key="RollbackChangesDialog" timestamp="1604355461493">
+    <state x="703" y="227" key="RollbackChangesDialog" timestamp="1604940984215">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604355461493" />
+    <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604940984215" />
     <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1604342514838">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
