@@ -6,7 +6,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "rmdir /q/s dist && rmdir /q/s types && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open",
     "build": "rmdir /q/s dist && rmdir /q/s types && webpack --config webpack.config.build.js"
