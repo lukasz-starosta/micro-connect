@@ -21,12 +21,16 @@ export default class ComponentWrapper {
     this.uuid = uuid();
   }
 
-  mount(element: HTMLElement): void {
-    if (!element) {
-      console.error('Could not find element with id root. Mounting aborted.');
+  mount(parentElement: HTMLElement): void {
+    if (!parentElement) {
+      console.error('Could not find parentElement with id root. Mounting aborted.');
       return;
     }
 
-    this.mountElement(element);
+    this.mountElement(parentElement);
+  }
+
+  unmount(parentElement: HTMLElement) {
+    this.unmountElement(parentElement);
   }
 }

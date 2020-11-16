@@ -10,11 +10,11 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  */
 import 'document-register-element';
 
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import {enableProdMode} from '@angular/core';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+import {AppModule} from './app/app.module';
+import {environment} from './environments/environment';
 import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
 
 if (environment.production) {
@@ -26,5 +26,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
 export default new ComponentWrapper({
   mountElement: (parentElement) => parentElement.appendChild(document.createElement('starter-component')),
-  unmountElement: (parentElement => {console.info(`unmount from ${parentElement}`)})
-})
+  unmountElement: (parentElement => {
+    parentElement.removeChild(parentElement.getElementsByTagName('starter-component')[0]);
+  })
+});

@@ -14,6 +14,12 @@ function Component({component}: IComponentProps) {
     if (elementRef.current) {
       component.mount(elementRef.current);
     }
+
+    return () => {
+      if (elementRef.current) {
+        component.unmount(elementRef.current);
+      }
+    }
   }, []);
 
   return <div ref={elementRef}/>;

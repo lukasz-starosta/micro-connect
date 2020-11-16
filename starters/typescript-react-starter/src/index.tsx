@@ -15,6 +15,6 @@ if (process.env.NODE_ENV === 'development') {
 export default new ComponentWrapper({
   mountElement: (parentElement: HTMLElement) => ReactDOM.render(<StrictModeApp/>, parentElement),
   unmountElement: (parentElement => {
-    console.info(`unmount from ${parentElement}`)
+    ReactDOM.unmountComponentAtNode(parentElement);
   })
 })
