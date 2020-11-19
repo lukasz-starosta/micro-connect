@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/micro-connect/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/micro-connect/static/js/main.42116e58.chunk.js",
+    "main.js.map": "/micro-connect/static/js/main.42116e58.chunk.js.map",
+    "runtime-main.js": "/micro-connect/static/js/runtime-main.ccd2e92f.js",
+    "runtime-main.js.map": "/micro-connect/static/js/runtime-main.ccd2e92f.js.map",
+    "static/js/2.2251c4ed.chunk.js": "/micro-connect/static/js/2.2251c4ed.chunk.js",
+    "static/js/2.2251c4ed.chunk.js.map": "/micro-connect/static/js/2.2251c4ed.chunk.js.map",
+    "static/js/3.d7b13c68.chunk.js": "/micro-connect/static/js/3.d7b13c68.chunk.js",
+    "static/js/3.d7b13c68.chunk.js.map": "/micro-connect/static/js/3.d7b13c68.chunk.js.map",
+    "index.html": "/micro-connect/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/micro-connect/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.2251c4ed.chunk.js.LICENSE.txt": "/micro-connect/static/js/2.2251c4ed.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/micro-connect/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccd2e92f.js",
+    "static/js/2.2251c4ed.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.42116e58.chunk.js"
+  ]
+}
