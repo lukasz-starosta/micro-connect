@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Component} from "@lukasz-starosta/micro-connect";
@@ -7,6 +7,7 @@ import JSComponent from '@lukasz-starosta/javascript-starter';
 import AngularComponent from '@lukasz-starosta/angular-starter';
 
 function App() {
+  const [shown, setShown] = useState(false);
   return (
     <div className="App">
       <header className="App-header">
@@ -14,20 +15,33 @@ function App() {
         <p>
           Hosting app
         </p>
+        <button onClick={() => setShown(!shown)}>Show/Hide</button>
+
         <div>
           <h2>React</h2>
-          <Component component={TSReactComponent}/>
-          <Component component={TSReactComponent}/>
+          {shown &&
+          <>
+            <Component component={TSReactComponent}/>
+            <Component component={TSReactComponent}/>
+          </>}
         </div>
         <div>
           <h2>JavaScript</h2>
-          <Component component={JSComponent}/>
-          <Component component={JSComponent}/>
+          {shown &&
+          <>
+            <Component component={JSComponent}/>
+            <Component component={JSComponent}/>
+          </>
+          }
         </div>
         <div>
           <h2>Angular</h2>
-          <Component component={AngularComponent}/>
-          <Component component={AngularComponent}/>
+          {shown &&
+          <>
+            <Component component={AngularComponent}/>
+            <Component component={AngularComponent}/>
+          </>
+          }
         </div>
       </header>
     </div>
