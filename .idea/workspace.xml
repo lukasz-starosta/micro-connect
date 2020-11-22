@@ -22,95 +22,117 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/documentation/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-navbar/.idea/js-navbar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-navbar/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-navbar/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/content/codeblock.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/content/codeblock/1-index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/content/index.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/content/introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/gatsby-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/gatsby-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/gatsby-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/netlify.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/CommunityAuthor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/GithubLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/YoutubeEmbed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/DarkModeSwitch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/NextPrevious.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/closed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/discord-brands-block.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/opened.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/twitter-brands-block.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/images/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/LiveProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/codeBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/rightSidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/search/hitComps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/search/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/search/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/search/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/treeNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/styles/Docs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/styles/GlobalStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/styles/PageNavigationButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/styles/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/theme/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/theme/themeProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/components/themeProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/custom-sw-code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/pwa-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/templates/docs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/documentation/src/utils/algolia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/landing/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/landing/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-sidebar/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-sidebar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/micro-connect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/micro-connect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/content/codeblock.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/content/codeblock/1-index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/content/index.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/content/introduction.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/gatsby-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/gatsby-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/gatsby-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/CommunityAuthor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/GithubLink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/YoutubeEmbed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/DarkModeSwitch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/NextPrevious.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/closed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/discord-brands-block.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/help.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/night.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/opened.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/twitter-brands-block.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/LiveProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/codeBlock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/loading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/rightSidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/search/hitComps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/search/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/search/input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/search/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/treeNode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/styles/Docs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/styles/GlobalStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/styles/PageNavigationButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/styles/Sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/theme/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/theme/themeProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/themeProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/custom-sw-code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/pwa-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/templates/docs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/utils/algolia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,13 +155,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="demo" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jduOmDZnXZ5kME35n4RjZrWUBi" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -150,19 +172,23 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/starters/angular-starter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-navbar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\typescript-react-starter\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\WebDevelopment\Projekty\Moje\Inzynierka\angular-sidebar\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\docs\landing\public" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\docs\landing" />
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\docs\documentation\public" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\docs\documentation\src" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\docs" />
-      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\docs\documentation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\docs\landing\vendor\components\angular-navbar" />
       <recent name="D:\WebDevelopment\Projekty\Moje\Inzynierka\micro-connect\starters\angular-starter" />
     </key>
   </component>
@@ -211,7 +237,13 @@
       <workItem from="1605801210794" duration="911000" />
       <workItem from="1605802472230" duration="442000" />
       <workItem from="1605803354060" duration="1550000" />
-      <workItem from="1605817961937" duration="3048000" />
+      <workItem from="1605817961937" duration="3154000" />
+      <workItem from="1605869491084" duration="949000" />
+      <workItem from="1605871850972" duration="4463000" />
+      <workItem from="1605878259412" duration="1086000" />
+      <workItem from="1605879411572" duration="4811000" />
+      <workItem from="1605958526667" duration="12044000" />
+      <workItem from="1606058851655" duration="1735000" />
     </task>
     <task id="LOCAL-00001" summary="Reference working in dev angular build">
       <created>1604241809928</created>
@@ -248,7 +280,35 @@
       <option name="project" value="LOCAL" />
       <updated>1605804232952</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Proper and working documentation structure with gh pages">
+      <created>1605821107403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605821107403</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit with navbar setup">
+      <created>1605878721988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605878721988</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Rename to angular-sidebar">
+      <created>1605880482508</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605880482508</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial commit">
+      <created>1605884229586</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605884229586</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +325,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -285,29 +345,41 @@
     <MESSAGE value="Remove unused entryComponents key" />
     <MESSAGE value="Try out other folder structure" />
     <MESSAGE value="Try out other folder structure with docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try out other folder structure with docs" />
+    <MESSAGE value="Proper and working documentation structure with gh pages" />
+    <MESSAGE value="Initial commit with navbar setup" />
+    <MESSAGE value="Rename to angular-sidebar" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604145969920">
+    <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605874217692">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604145969920" />
-    <state width="459" height="566" key="GridCell.Tab.0.bottom" timestamp="1604941436814">
+    <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605874217692" />
+    <state x="319" y="87" key="DiffContextDialog" timestamp="1605874206605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="566" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604941436814" />
-    <state width="459" height="566" key="GridCell.Tab.0.center" timestamp="1604941436813">
+    <state x="319" y="87" key="DiffContextDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605874206605" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1605882252963">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="566" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604941436813" />
-    <state width="459" height="566" key="GridCell.Tab.0.left" timestamp="1604941436813">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605882252963" />
+    <state width="459" height="508" key="GridCell.Tab.0.bottom" timestamp="1606059880291">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="566" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604941436813" />
-    <state width="459" height="566" key="GridCell.Tab.0.right" timestamp="1604941436813">
+    <state width="459" height="508" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606059880291" />
+    <state width="459" height="508" key="GridCell.Tab.0.center" timestamp="1606059880291">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="566" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604941436813" />
+    <state width="459" height="508" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606059880291" />
+    <state width="459" height="508" key="GridCell.Tab.0.left" timestamp="1606059880291">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="459" height="508" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606059880291" />
+    <state width="459" height="508" key="GridCell.Tab.0.right" timestamp="1606059880291">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="459" height="508" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606059880291" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1604338509738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -360,25 +432,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604940984215" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1605804240910">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1605884237253">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605804240910" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605884237253" />
     <state x="667" y="258" width="663" height="534" key="find.popup" timestamp="1605802612165">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="667" y="258" width="663" height="534" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605802612165" />
-    <state x="732" y="238" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604355435465">
+    <state x="732" y="238" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605874210146">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="732" y="238" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604355435465" />
+    <state x="732" y="238" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605874210146" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1604242155524">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604242155524" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604336496762">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1606059244189">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604336496762" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606059244189" />
   </component>
 </project>
