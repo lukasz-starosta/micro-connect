@@ -31,16 +31,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-navbar/.idea/js-navbar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-navbar/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-navbar/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js-navbar/src/buildElement.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js-navbar/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js-navbar/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +53,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -84,6 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../js-navbar" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\WebDevelopment\Projekty\Moje\Inzynierka\angular-sidebar\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -154,7 +151,7 @@
       <workItem from="1605958526667" duration="12044000" />
       <workItem from="1606058851655" duration="3295000" />
       <workItem from="1606078909003" duration="376000" />
-      <workItem from="1606146039477" duration="1973000" />
+      <workItem from="1606146039477" duration="3990000" />
     </task>
     <task id="LOCAL-00001" summary="Reference working in dev angular build">
       <created>1604241809928</created>
@@ -233,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606062699856</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update lib to load css">
+      <created>1606152009035</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606152009035</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Created a simple JS navbar">
+      <created>1606154098971</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606154098971</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +286,9 @@
     <MESSAGE value="Rename to angular-sidebar" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Properly build documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Properly build documentation" />
+    <MESSAGE value="Update lib to load css" />
+    <MESSAGE value="Created a simple JS navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a simple JS navbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605874217692">
@@ -358,10 +371,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604940984215" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606060710335">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606152014462">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606060710335" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606152014462" />
     <state x="667" y="258" width="663" height="534" key="find.popup" timestamp="1605802612165">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
