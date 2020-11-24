@@ -53,7 +53,6 @@
     "styled-icons": "^9.0.1"
   },
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "deploy:build-landing": "npm run build --prefix ../landing",
     "deploy:copy-built-landing-to-dist": "xcopy \"../landing/dist\" \"../dist/\" /s /e /i /y",
@@ -61,9 +60,7 @@
     "predeploy": "npm run build && npm run deploy:copy-public-to-dist && npm run deploy:build-landing && npm run deploy:copy-built-landing-to-dist",
     "deploy": "gh-pages -d ../dist",
     "start": "gatsby develop",
-    "build": "gatsby build --prefix-paths",
-    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
-    "lint": "eslint --fix \"src/**/*.{js,jsx}\""
+    "build": "gatsby build --prefix-paths"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

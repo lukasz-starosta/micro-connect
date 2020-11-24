@@ -63,7 +63,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../js-navbar" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jduOmDZnXZ5kME35n4RjZrWUBi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -151,7 +151,8 @@
       <workItem from="1605958526667" duration="12044000" />
       <workItem from="1606058851655" duration="3295000" />
       <workItem from="1606078909003" duration="376000" />
-      <workItem from="1606146039477" duration="3990000" />
+      <workItem from="1606146039477" duration="4223000" />
+      <workItem from="1606248409240" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="Reference working in dev angular build">
       <created>1604241809928</created>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606154098971</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added a working js navbar">
+      <created>1606154382285</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606154382285</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +296,8 @@
     <MESSAGE value="Properly build documentation" />
     <MESSAGE value="Update lib to load css" />
     <MESSAGE value="Created a simple JS navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a simple JS navbar" />
+    <MESSAGE value="Added a working js navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a working js navbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605874217692">
@@ -371,10 +380,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604940984215" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606152014462">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606154388577">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606152014462" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606154388577" />
     <state x="667" y="258" width="663" height="534" key="find.popup" timestamp="1605802612165">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
