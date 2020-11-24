@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
-    pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    pathPrefix: '/micro-connect/documentation',
+    siteUrl: 'https://lukasz-starosta.github.io/micro-connect',
     gaTrackingId: null,
     trailingSlash: false,
   },

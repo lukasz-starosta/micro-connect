@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="angular-sidebar" />
+    <orderEntry type="module" module-name="angular-sidebar" />
+    <orderEntry type="module" module-name="js-navbar" />
   </component>
 </module>

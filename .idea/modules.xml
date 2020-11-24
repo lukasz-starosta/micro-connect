@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../angular-sidebar/.idea/angular-sidebar.iml" filepath="$PROJECT_DIR$/../angular-sidebar/.idea/angular-sidebar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../js-navbar/.idea/js-navbar.iml" filepath="$PROJECT_DIR$/../js-navbar/.idea/js-navbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/micro-connect.iml" filepath="$PROJECT_DIR$/.idea/micro-connect.iml" />
     </modules>
   </component>
