@@ -1,8 +1,18 @@
-import React, {useState} from 'react';
+import React from 'react';
+import ComponentExample from "./ComponentExample";
 
-function App() {
+interface IProps {
+  className?: string;
+  id?: string;
+}
+
+function App({className, id}: IProps) {
   return (
-    <p>React Template</p>
+    <React.StrictMode>
+      <div className={className} id={id}>
+        <ComponentExample/>
+      </div>
+    </React.StrictMode>
   );
 }
 

@@ -1,4 +1,5 @@
 import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
+import {name, version} from '../package.json';
 
 let element;
 
@@ -13,11 +14,15 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 export default new ComponentWrapper({
-  mountElement: (parentElement) => {
+  mountElement: (parentElement, props) => {
     buildElement();
+    element.classList.add(props.rootClassName);
+    element.id = props.id;
     parentElement.appendChild(element)
   },
   unmountElement: (parentElement => {
     parentElement.removeChild(element);
-  })
+  }),
+  name,
+  version
 })

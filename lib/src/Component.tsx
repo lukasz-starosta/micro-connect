@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useLayoutEffect, useRef} from 'react';
 import ComponentWrapper from "./ComponentWrapper";
 
 export interface IComponentProps {
@@ -10,7 +10,7 @@ function Component({component}: IComponentProps) {
   const elementRef = useRef<HTMLDivElement | null>(null);
 
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (elementRef.current) {
       component.mount(elementRef.current);
     }

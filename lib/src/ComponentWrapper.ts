@@ -1,11 +1,18 @@
 import {v4 as uuid} from 'uuid';
 
-export type IMountElement = (parentElement: HTMLElement) => void;
+export interface IMountElementProps {
+  rootClassName?: string;
+  id: string;
+}
+
+export type IMountElement = (parentElement: HTMLElement, props: IMountElementProps) => void;
 export type IUnmountElement = (parentElement: HTMLElement) => void;
 
 export interface IConstructorArgs {
   mountElement: IMountElement;
   unmountElement: IUnmountElement;
+  version: string;
+  name: string;
 }
 
 export default class ComponentWrapper {
@@ -13,21 +20,24 @@ export default class ComponentWrapper {
 
   private readonly mountElement: IMountElement;
   private readonly unmountElement: IUnmountElement;
+  public name: string;
+  public version: string;
 
-  constructor({mountElement, unmountElement}: IConstructorArgs) {
+  constructor({mountElement, unmountElement, name, version}: IConstructorArgs) {
     this.mountElement = mountElement;
     this.unmountElement = unmountElement;
+    this.name = name;
+    this.version = version;
 
     this.uuid = uuid();
   }
 
-  mount(parentElement: HTMLElement): void {
+  mount(parentElement: HTMLElement, props?: IMountElementProps): void {
     if (!parentElement) {
-      console.error('Could not find parentElement with id root. Mounting aborted.');
-      return;
+      throw new Error('Could not find parentElement. Mounting aborted.');
     }
 
-    this.mountElement(parentElement);
+    this.mountElement(parentElement, {...props, id: this.uuid});
   }
 
   unmount(parentElement: HTMLElement) {

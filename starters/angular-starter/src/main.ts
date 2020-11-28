@@ -16,6 +16,7 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {AppModule} from './app/app.module';
 import {environment} from './environments/environment';
 import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
+import {name, version} from '../package.json';
 
 if (environment.production) {
   enableProdMode();
@@ -25,8 +26,15 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 export default new ComponentWrapper({
-  mountElement: (parentElement) => parentElement.appendChild(document.createElement('starter-component')),
+  mountElement: (parentElement, props) => {
+    const element = document.createElement('starter-component');
+    element.id = props.id;
+    element.classList.add(props.rootClassName);
+    parentElement.appendChild(element);
+  },
   unmountElement: (parentElement => {
     parentElement.removeChild(parentElement.getElementsByTagName('starter-component')[0]);
-  })
+  }),
+  name,
+  version
 });
