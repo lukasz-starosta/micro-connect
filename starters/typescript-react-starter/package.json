@@ -1,11 +1,11 @@
 {
   "name": "@lukasz-starosta/typescript-react-starter",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@lukasz-starosta/micro-connect": "^0.1.7",
+    "@lukasz-starosta/micro-connect": "^0.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",

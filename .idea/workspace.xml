@@ -31,12 +31,34 @@
   <component name="ChangeListManager">
     <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starters/typescript-react-starter/src/ComponentExample.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular-sidebar/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-sidebar/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/Component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/Component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/ComponentWrapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/ComponentWrapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plain-host/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/plain-host/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plain-host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/plain-host/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plain-host/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/plain-host/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/angular-starter/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/angular-starter/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/javascript-starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/javascript-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/javascript-starter/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/typescript-react-starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react-starter/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/typescript-react-starter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react-starter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/typescript-react-starter/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react-starter/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/typescript-react-starter/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/starters/typescript-react-starter/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +76,14 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="add-documentation" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,7 +175,14 @@
       <workItem from="1606058851655" duration="3295000" />
       <workItem from="1606078909003" duration="376000" />
       <workItem from="1606146039477" duration="4223000" />
-      <workItem from="1606248409240" duration="1034000" />
+      <workItem from="1606248409240" duration="2027000" />
+      <workItem from="1606333742998" duration="3140000" />
+      <workItem from="1606383905029" duration="1407000" />
+      <workItem from="1606425203599" duration="599000" />
+      <workItem from="1606484676371" duration="2000" />
+      <workItem from="1606569379381" duration="3724000" />
+      <workItem from="1606575867023" duration="367000" />
+      <workItem from="1606598588960" duration="2871000" />
     </task>
     <task id="LOCAL-00001" summary="Reference working in dev angular build">
       <created>1604241809928</created>
@@ -252,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606154382285</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Cleared up documentation">
+      <created>1606251811866</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606251811866</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +334,8 @@
     <MESSAGE value="Update lib to load css" />
     <MESSAGE value="Created a simple JS navbar" />
     <MESSAGE value="Added a working js navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a working js navbar" />
+    <MESSAGE value="Cleared up documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleared up documentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605874217692">
@@ -380,14 +418,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604940984215" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606154388577">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606251819867">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606154388577" />
-    <state x="667" y="258" width="663" height="534" key="find.popup" timestamp="1605802612165">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606251819867" />
+    <state x="667" y="258" width="663" height="534" key="find.popup" timestamp="1606251743490">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="667" y="258" width="663" height="534" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1605802612165" />
+    <state x="667" y="258" width="663" height="534" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606251743490" />
     <state x="732" y="238" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605874210146">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -396,9 +434,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604242155524" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1606059244189">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1606573125480">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606059244189" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606573125480" />
   </component>
 </project>

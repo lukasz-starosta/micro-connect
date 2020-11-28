@@ -2,19 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
 import App from "./App";
+import {IMountElementProps} from "@lukasz-starosta/micro-connect";
+import {name, version} from '../package.json';
 
-const StrictModeApp = () => {
-  return <React.StrictMode>
-    <App/>
-  </React.StrictMode>
-}
 if (process.env.NODE_ENV === 'development') {
-  ReactDOM.render(<StrictModeApp/>, document.getElementById('root'));
+  ReactDOM.render(<App/>, document.getElementById('root'));
 }
 
 export default new ComponentWrapper({
-  mountElement: (parentElement: HTMLElement) => ReactDOM.render(<StrictModeApp/>, parentElement),
+  mountElement: (parentElement: HTMLElement, props: IMountElementProps) => {
+    ReactDOM.render(<App className={props.rootClassName} id={props.id}/>, parentElement);
+  },
   unmountElement: (parentElement => {
     ReactDOM.unmountComponentAtNode(parentElement);
-  })
+  }),
+  name,
+  version
 })
