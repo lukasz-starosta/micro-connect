@@ -36,3 +36,40 @@
     padding: 4px 8px;
     border-radius: 4px;
 }
+
+.component__presentation {
+    margin: 5em auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.component__presentation--reverse {
+    flex-direction: row-reverse;
+}
+
+.component__container {
+    flex: 1;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+.component--main {
+    background: red;
+    width: 400px;
+    height: 600px;
+}
+
+.component__description {
+    flex: 1;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.component__technology-icon {
+    display: inline-block;
+    margin: 0.5em auto;
+}

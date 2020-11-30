@@ -5,9 +5,7 @@ body {
 }
 
 main {
-    padding-top: 6em;
-    width: 80%;
-    margin: 0 auto;
+    padding: 6em 10vw;
 }
 
 a {
@@ -64,4 +62,11 @@ h2 {
 .button--color {
     background: linear-gradient(#d93c65, #5b41fc);
     color: white;
+}
+
+.circle--big {
+    position: absolute;
+    top: 0;
+    height: 600px;
+    z-index: -1;
 }
