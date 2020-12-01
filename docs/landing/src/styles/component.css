@@ -1,0 +1,75 @@
+.component {
+    position: relative;
+}
+
+.component--navbar {
+    height: 40px;
+}
+
+.component:hover::before,
+.component:hover::after {
+    animation: show 200ms forwards;
+}
+
+.component:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    border: 2px solid red;
+}
+
+.component:hover::after {
+    content: attr(data-component-meta);
+    font-size: 0.9em;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 20px;
+
+    background: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.component__presentation {
+    margin: 8em auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.component__presentation--reverse {
+    flex-direction: row-reverse;
+}
+
+.component__container {
+    flex: 1;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+.component--main {
+    background: red;
+    width: 400px;
+    height: 600px;
+}
+
+.component__description {
+    flex: 1;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.component__technology-icon {
+    display: inline-block;
+    margin: 0.5em auto;
+}

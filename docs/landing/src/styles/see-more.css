@@ -1,0 +1,12 @@
+.see__more {
+    margin-top: 4em;
+}
+
+.see__more h3 {
+    text-align: center;
+}
+
+.see__more__buttons {
+    display: flex;
+    justify-content: center;
+}
