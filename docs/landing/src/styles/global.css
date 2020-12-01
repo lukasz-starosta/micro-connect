@@ -81,3 +81,11 @@ h3 {
     height: 600px;
     z-index: -1;
 }
+
+.circle--footer {
+    position: absolute;
+    bottom: -250px;
+    left: -250px;
+    height: 600px;
+    z-index: -1;
+}
