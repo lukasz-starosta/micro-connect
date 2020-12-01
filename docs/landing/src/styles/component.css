@@ -38,7 +38,7 @@
 }
 
 .component__presentation {
-    margin: 5em auto;
+    margin: 8em auto;
     display: flex;
     flex-flow: row wrap;
 }

@@ -1,0 +1,22 @@
+.code__example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.code__example h2 {
+    align-self: flex-start;
+}
+
+.code__example p {
+    font-size: 1.2em;
+    max-width: 40rem;
+    text-align: center;
+}
+
+.code__example code {
+    padding: 0.5em 2em;
+    background: #eee;
+    border-radius: 8px;
+}
