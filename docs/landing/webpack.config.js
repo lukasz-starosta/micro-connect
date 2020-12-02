@@ -13,7 +13,15 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
-      }
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
     ],
   },
   plugins: [
@@ -23,7 +31,10 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
+        // this will copy /assets to /dist/assets
         {from: "assets", to: "assets"},
+        // this will copy card input assets
+        {from: "node_modules/@lukasz-starosta/angular-card-input/dist/assets", to: "assets"}
       ],
     }),
   ],
