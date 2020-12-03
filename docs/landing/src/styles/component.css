@@ -20,6 +20,7 @@
     bottom: 0;
 
     border: 2px solid red;
+    border-radius: inherit;
 }
 
 .component:hover::after {
@@ -30,6 +31,7 @@
     left: 50%;
     transform: translateX(-50%);
     height: 20px;
+    white-space: nowrap;
 
     background: red;
     color: white;
@@ -58,9 +60,9 @@
 }
 
 .component--main {
-    background: red;
-    width: 400px;
-    height: 600px;
+    /* placeholder dimensions */
+    min-width: 470px;
+    min-height: 600px;
 }
 
 .component__description {
