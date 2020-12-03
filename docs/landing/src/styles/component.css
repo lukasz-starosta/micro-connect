@@ -21,6 +21,7 @@
 
     border: 2px solid red;
     border-radius: inherit;
+    z-index: -1;
 }
 
 .component:hover::after {

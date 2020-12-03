@@ -29,23 +29,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/landing/assets/js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/gantt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/landing/src/styles/component-styles/gantt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/micro-connect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/micro-connect.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/assets/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/assets/react.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/src/styles/component.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/styles/component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/styles/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +178,7 @@
       <workItem from="1606853155031" duration="1606000" />
       <workItem from="1606932222852" duration="599000" />
       <workItem from="1606933426923" duration="3268000" />
-      <workItem from="1606997801401" duration="13151000" />
+      <workItem from="1606997801401" duration="13549000" />
     </task>
     <task id="LOCAL-00001" summary="Reference working in dev angular build">
       <created>1604241809928</created>
@@ -455,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607025980111</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add js gantt component, fix styles">
+      <created>1607027237061</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1607027237061</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Properly build documentation" />
     <MESSAGE value="Update lib to load css" />
     <MESSAGE value="Created a simple JS navbar" />
     <MESSAGE value="Added a working js navbar" />
@@ -512,7 +502,8 @@
     <MESSAGE value="Add react-calendar" />
     <MESSAGE value="Add sass loader and file loader support" />
     <MESSAGE value="JS gantt complete example" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS gantt complete example" />
+    <MESSAGE value="Add js gantt component, fix styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add js gantt component, fix styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="761" y="32" key="#HTML" timestamp="1606683845943">
@@ -531,22 +522,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607022745167" />
-    <state width="459" height="574" key="GridCell.Tab.0.bottom" timestamp="1607023050342">
+    <state width="459" height="574" key="GridCell.Tab.0.bottom" timestamp="1607027419504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="574" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607023050342" />
-    <state width="459" height="574" key="GridCell.Tab.0.center" timestamp="1607023050342">
+    <state width="459" height="574" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607027419504" />
+    <state width="459" height="574" key="GridCell.Tab.0.center" timestamp="1607027419504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="574" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607023050342" />
-    <state width="459" height="574" key="GridCell.Tab.0.left" timestamp="1607023050342">
+    <state width="459" height="574" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607027419504" />
+    <state width="459" height="574" key="GridCell.Tab.0.left" timestamp="1607027419504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="574" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607023050342" />
-    <state width="459" height="574" key="GridCell.Tab.0.right" timestamp="1607023050342">
+    <state width="459" height="574" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607027419504" />
+    <state width="459" height="574" key="GridCell.Tab.0.right" timestamp="1607027419504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="459" height="574" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607023050342" />
+    <state width="459" height="574" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607027419504" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1604338509738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -599,10 +590,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604940984215" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1607025984165">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1607027240741">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607025984165" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607027240741" />
     <state x="667" y="258" width="663" height="534" key="find.popup" timestamp="1607010428592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
