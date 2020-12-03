@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../angular-card-input/.idea/angular-card-input.iml" filepath="$PROJECT_DIR$/../angular-card-input/.idea/angular-card-input.iml" />
       <module fileurl="file://$PROJECT_DIR$/../angular-sidebar/.idea/angular-sidebar.iml" filepath="$PROJECT_DIR$/../angular-sidebar/.idea/angular-sidebar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../js-gantt/.idea/js-gantt.iml" filepath="$PROJECT_DIR$/../js-gantt/.idea/js-gantt.iml" />
       <module fileurl="file://$PROJECT_DIR$/../js-navbar/.idea/js-navbar.iml" filepath="$PROJECT_DIR$/../js-navbar/.idea/js-navbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/micro-connect.iml" filepath="$PROJECT_DIR$/.idea/micro-connect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../react-calendar/.idea/react-calendar.iml" filepath="$PROJECT_DIR$/../react-calendar/.idea/react-calendar.iml" />
     </modules>
   </component>
 </project>

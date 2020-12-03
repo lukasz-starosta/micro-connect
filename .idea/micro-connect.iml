@@ -11,5 +11,8 @@
     <orderEntry type="module" module-name="angular-sidebar" />
     <orderEntry type="module" module-name="angular-sidebar" />
     <orderEntry type="module" module-name="js-navbar" />
+    <orderEntry type="module" module-name="angular-card-input" />
+    <orderEntry type="module" module-name="react-calendar" />
+    <orderEntry type="module" module-name="js-gantt" />
   </component>
 </module>

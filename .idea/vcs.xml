@@ -2,7 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../angular-card-input" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../angular-sidebar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../js-gantt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../js-navbar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../react-calendar" vcs="Git" />
   </component>
 </project>

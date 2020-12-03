@@ -5,3 +5,5 @@
 @import "code-example.css";
 @import "see-more.css";
 @import "footer.css";
+@import "./component-styles/calendar.css";
+@import "./component-styles/gantt.css";
