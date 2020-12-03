@@ -12,7 +12,8 @@
   "dependencies": {
     "@lukasz-starosta/angular-card-input": "^0.1.1",
     "@lukasz-starosta/js-navbar": "^0.1.3",
-    "@lukasz-starosta/micro-connect": "^0.2.0"
+    "@lukasz-starosta/micro-connect": "^0.2.0",
+    "@lukasz-starosta/react-calendar": "^0.1.0"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^6.3.2",

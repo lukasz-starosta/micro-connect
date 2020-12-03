@@ -62,7 +62,9 @@
 .component--main {
     /* placeholder dimensions */
     min-width: 470px;
-    min-height: 600px;
+    min-height: 500px;
+
+    box-shadow: 0 10px 30px -6px rgba(0, 0, 0, 0.3);
 }
 
 .component__description {
