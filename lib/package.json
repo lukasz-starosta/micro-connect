@@ -1,6 +1,6 @@
 {
   "name": "@lukasz-starosta/micro-connect",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A library allowing for development of client applications based on microservices architecture incorporating technologically independent components.",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -28,7 +28,10 @@
   "devDependencies": {
     "@types/react": "^16.9.52",
     "@types/react-dom": "^16.9.8",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
     "ts-loader": "^8.0.4",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
