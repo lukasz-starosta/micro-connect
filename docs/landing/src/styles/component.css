@@ -14,10 +14,10 @@
 .component:hover::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
 
     border: 2px solid red;
     border-radius: inherit;
@@ -27,7 +27,7 @@
     content: attr(data-component-meta);
     font-size: 0.9em;
     position: absolute;
-    bottom: -30px;
+    bottom: -32px;
     left: 50%;
     transform: translateX(-50%);
     height: 20px;
@@ -40,7 +40,7 @@
 }
 
 .component__presentation {
-    margin: 8em auto;
+    margin: 14em auto;
     display: flex;
     flex-flow: row wrap;
 }
@@ -60,9 +60,9 @@
 }
 
 .component--main {
-    /* placeholder dimensions */
     min-width: 470px;
-    min-height: 500px;
+
+    max-width: 650px;
 
     box-shadow: 0 10px 30px -6px rgba(0, 0, 0, 0.3);
 }
@@ -70,10 +70,18 @@
 .component__description {
     flex: 1;
     position: relative;
-    font-size: 1.2em;
+}
+.component__description p {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    color: #444;
+    padding: 0 1rem;
 }
 
 .component__technology-icon {
     display: inline-block;
     margin: 0.5em auto;
+    max-width: 100px;
+    max-height: 100px;
 }
