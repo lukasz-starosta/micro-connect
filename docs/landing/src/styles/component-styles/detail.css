@@ -1,0 +1,46 @@
+#detail {
+    display: none;
+    flex: 1;
+    height: 100%;
+    position: relative;
+    top: -150px;
+    padding: 0.5em;
+    border-radius: 8px;
+
+    background: linear-gradient(45deg, #fcef87, #ec9476);
+    box-shadow: 0 10px 30px -6px rgba(0, 0, 0, 0.3);
+}
+
+#detail-component {
+    background: white;
+    border-radius: 8px;
+    padding: 0.5em;
+}
+
+#detail header {
+    position: relative;
+    padding: 4px 8px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
+#detail header .close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#detail h3 {
+    color: black;
+    margin: 0.5em 0;
+}
+
+#detail h4 {
+    margin: 0.2em 0;
+    color: #707070;
+    text-align: right;
+    font-size: 1.2em;
+}

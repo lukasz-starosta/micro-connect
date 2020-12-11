@@ -1,27 +1,19 @@
 .component {
     position: relative;
+    border: 2px solid transparent;
 }
 
 .component--navbar {
     height: 40px;
 }
 
-.component:hover::before,
 .component:hover::after {
     animation: show 200ms forwards;
 }
 
-.component:hover::before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-
+.component:hover {
     border: 2px solid red;
     border-radius: inherit;
-    z-index: -1;
 }
 
 .component:hover::after {
@@ -44,6 +36,10 @@
     margin: 14em auto;
     display: flex;
     flex-flow: row wrap;
+}
+
+.component__presentation:first-of-type {
+    margin-top: 6em;
 }
 
 .component__presentation--reverse {

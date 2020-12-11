@@ -24,66 +24,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/landing/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/landing/src/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/landing/src/styles/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/landing/src/styles/component-styles/detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/content/codeblock.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/content/codeblock/1-index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/content/index.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/content/introduction.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/gatsby-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/gatsby-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/CommunityAuthor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/GithubLink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/YoutubeEmbed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/DarkModeSwitch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/NextPrevious.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/closed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/day.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/discord-brands-block.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/help.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/night.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/opened.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/twitter-brands-block.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/images/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/LiveProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/codeBlock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/mdxComponents/loading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/rightSidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/search/hitComps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/search/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/search/input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/search/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/sidebar/treeNode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/styles/Docs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/styles/GlobalStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/styles/PageNavigationButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/styles/Sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/theme/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/theme/themeProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/components/themeProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/custom-sw-code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/templates/docs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation/src/utils/algolia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/landing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-calendar/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../react-calendar/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/styles/component.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/styles/component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-calendar/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-calendar/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-calendar/src/CalendarComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-calendar/src/CalendarComponent.tsx" afterDir="false" />
     </list>
@@ -242,7 +192,10 @@
       <workItem from="1607361070895" duration="3881000" />
       <workItem from="1607379977694" duration="1554000" />
       <workItem from="1607452435876" duration="5297000" />
-      <workItem from="1607539737929" duration="3739000" />
+      <workItem from="1607539737929" duration="6149000" />
+      <workItem from="1607612434621" duration="6451000" />
+      <workItem from="1607621476809" duration="260000" />
+      <workItem from="1607699856802" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="Reference working in dev angular build">
       <created>1604241809928</created>
@@ -531,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607546267877</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Remove documentation">
+      <created>1607546791439</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1607546791439</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,6 +555,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="32" key="#HTML/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606683845943" />
+    <state x="414" y="180" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607548104404">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607548104404" />
     <state x="724" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605874217692">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -675,10 +639,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604940984215" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1607027765224">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1607546802559">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607027765224" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607546802559" />
     <state x="667" y="258" width="663" height="534" key="find.popup" timestamp="1607010428592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -691,10 +655,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604242155524" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1606686387231">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607621642710">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606686387231" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1607621642710" />
     <state x="382" y="276" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1606687393556">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
