@@ -1,4 +1,5 @@
 import CardInput from '@lukasz-starosta/angular-card-input';
+import Gantt, {centerGanttChart} from '@lukasz-starosta/js-gantt';
 
 const detail = document.getElementById("detail");
 const detailComponent = document.getElementById("detail-component");
@@ -6,30 +7,58 @@ const span = document.getElementsByClassName("close")[0];
 const h3 = detail.getElementsByTagName('h3')[0];
 const h4 = detail.getElementsByTagName('h4')[0];
 
-const componentNameMap = {
-  'card-input': CardInput
+let component;
+
+const components = {
+  'card-input': {component: CardInput},
+  'gantt': {component: Gantt, afterMount: () => centerGanttChart(detailComponent)}
 }
 
-window.addEventListener('show-component', function(event) {
-  const {title, date, component} = event.detail;
+window.addEventListener('show-component', function (event) {
+  const {title, date, component: componentName} = event.detail;
+  // Don't mount the same element twice
+  if (components[componentName] === component) return;
+
+  clearDetail();
+
   h3.innerText = title || 'Event';
   h4.innerText = date ? `${date[0].toLocaleString()} - ${date[1].toLocaleString()}` : new Date().toLocaleDateString();
 
-  const componentElement = componentNameMap[component];
+  const componentWrapper = components[componentName];
+  component = componentWrapper && componentWrapper.component;
 
-  if (!componentElement) throw new Error(`Component with name ${component} does not exist.`);
-  detailComponent.dataset.componentMeta = `${componentElement.name} | v${componentElement.version}`;
+  if (!component) {
+    closeDetail();
+    throw new Error(`Component with name ${componentName} does not exist.`);
+  }
+
+  detailComponent.dataset.componentMeta = `${component.name} | v${component.version}`;
   detailComponent.classList.add('component');
 
-  componentElement.mount(detailComponent);
+  component.mount(detailComponent);
   detail.appendChild(detailComponent);
 
   detail.style.display = "block";
+
+  if (componentWrapper.afterMount) {
+    componentWrapper.afterMount();
+  }
 });
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  detail.style.display = "none";
-  const e = detail.getElementsByClassName('component')[0];
-  detail.removeChild(e);
+function clearDetail() {
+  if (component) {
+    component.unmount(detailComponent);
+    component = null;
+  }
+}
+
+function closeDetail() {
+  detail.style.display = 'none';
+}
+
+span.onclick = function () {
+  clearDetail();
+  closeDetail();
+
+  window.dispatchEvent(new CustomEvent('clear-selected-event'));
 }

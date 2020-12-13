@@ -5,3 +5,4 @@ import './calendar';
 import './gantt';
 import './app';
 import './detail';
+import './notifications';
