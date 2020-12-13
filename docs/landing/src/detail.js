@@ -1,4 +1,5 @@
 import CardInput from '@lukasz-starosta/angular-card-input';
+import Trend from '@lukasz-starosta/angular-trend';
 import Gantt, {centerGanttChart} from '@lukasz-starosta/js-gantt';
 
 const detail = document.getElementById("detail");
@@ -11,7 +12,8 @@ let component;
 
 const components = {
   'card-input': {component: CardInput},
-  'gantt': {component: Gantt, afterMount: () => centerGanttChart(detailComponent)}
+  'gantt': {component: Gantt, afterMount: () => centerGanttChart(detailComponent)},
+  'trend': {component: Trend}
 }
 
 window.addEventListener('show-component', function (event) {

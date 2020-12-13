@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@lukasz-starosta/angular-card-input": "^0.1.3",
+    "@lukasz-starosta/angular-trend": "^0.1.0",
     "@lukasz-starosta/js-gantt": "^0.1.5",
     "@lukasz-starosta/js-gantt-0.1.1": "npm:@lukasz-starosta/js-gantt@^0.1.1",
     "@lukasz-starosta/js-navbar": "^0.1.3",
