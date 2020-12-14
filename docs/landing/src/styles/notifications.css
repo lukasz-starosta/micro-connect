@@ -1,0 +1,7 @@
+.Toastify .component {
+    padding: 0;
+}
+
+.Toastify .component > div {
+    margin-bottom: 0;
+}

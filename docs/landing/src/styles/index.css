@@ -8,4 +8,5 @@
 @import "./component-styles/calendar.css";
 @import "./component-styles/gantt.css";
 @import "app.css";
+@import "notifications.css";
 @import './component-styles/detail.css';
