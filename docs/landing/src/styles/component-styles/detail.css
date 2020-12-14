@@ -3,7 +3,8 @@
     flex: 1;
     height: 100%;
     position: relative;
-    top: -150px;
+    top: -1em;
+    right: 0;
     padding: 0.5em;
     border-radius: 8px;
 

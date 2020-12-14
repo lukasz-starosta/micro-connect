@@ -1,7 +1,7 @@
 #app {
     position: relative;
     /* counteract 10vw padding on main */
-    margin: 10em -8vw 0;
+    margin: 2em -8vw 5em;
 
     display: flex;
     flex-flow: row wrap;
@@ -15,11 +15,11 @@
 }
 
 #app-calendar {
-    max-width: 700px;
+    max-width: 1000px;
     flex: 1;
 }
 
 #app-calendar .rbc-calendar {
-    max-width: 700px;
+    max-width: 1000px;
     height: 600px;
 }
