@@ -18,8 +18,8 @@
       <h1>micro-connect</h1>
       <h3>Seamlessly connect React, Angular and plain JavaScript or TypeScript applications into one.</h3>
       <div class="button-container">
-        <a class="button button--grey" href="./documentation">Documentation</a>
-        <a class="button button--color" href="#examples">Live examples</a>
+        <a class="button button--color" href="#discover">Discover</a>
+        <a class="button button--grey" href="#use-cases">Use cases</a>
       </div>
     </div>
     <div class="header__image-container">
@@ -38,47 +38,68 @@
     </section>
     <img src="assets/subheader.svg" alt="Subheader image - hello versatility"/>
   </div>
-  <div id="examples"></div>
-  <div class="component__presentation">
-    <div class="component__container">
-      <div id="angular-card-input" class="component component--main"></div>
-      <img class="circle--big" alt="Circle background" src="assets/circle.svg">
+  <div class="id-anchor" id="discover"></div>
+  <section>
+    <h2>Discover</h2>
+    <div id="app">
+      <div id="app-calendar" class="component component--main"></div>
+      <div id="detail">
+        <header>
+          <h3>Event</h3>
+          <h4></h4>
+          <span class="close">&times;</span>
+        </header>
+        <div id="detail-component"></div>
+      </div>
     </div>
-    <div class="component__description">
-      <img class="component__technology-icon" src="assets/angular.png" alt="Angular icon">
-      <p>
-        The library exists in <strong>React</strong> but the <strong>Angular</strong> version is prettier and more
-        advanced? Not a problem!
-      </p>
+  </section>
+
+  <div class="id-anchor" id="use-cases"></div>
+  <section>
+    <h2>Use cases</h2>
+    <div class="component__presentation">
+
+      <div class="component__container">
+        <div id="angular-card-input" class="component component--main"></div>
+        <img class="circle--big" alt="Circle background" src="assets/circle.svg">
+      </div>
+      <div class="component__description">
+        <img class="component__technology-icon" src="assets/angular.png" alt="Angular icon">
+        <p>
+          The library exists in <strong>React</strong> but the <strong>Angular</strong> version is prettier and more
+          advanced? Not a problem!
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="component__presentation component__presentation--reverse">
-    <div class="component__container">
-      <div id="react-calendar" class="component component--main"></div>
-      <img class="circle--big" alt="Circle background" src="assets/circle.svg">
+    <div class="component__presentation component__presentation--reverse">
+      <div class="component__container">
+        <div id="react-calendar" class="component component--main"></div>
+        <img class="circle--big" alt="Circle background" src="assets/circle.svg">
+      </div>
+      <div class="component__description">
+        <img class="component__technology-icon" src="assets/react.svg" alt="React icon">
+        <p>
+          Your simple <strong>JavaScript</strong> project requires a complex component, which you would rather write in
+          <strong>React</strong>? Easy!
+        </p>
+      </div>
     </div>
-    <div class="component__description">
-      <img class="component__technology-icon" src="assets/react.svg" alt="React icon">
-      <p>
-        Your simple <strong>JavaScript</strong> project requires a complex component, which you would rather write in
-        <strong>React</strong>? Easy!
-      </p>
+    <div class="component__presentation">
+      <div class="component__container">
+        <div class="component component--main" id="js-gantt"></div>
+        <img class="circle--big" alt="Circle background" src="assets/circle.svg">
+      </div>
+      <div class="component__description">
+        <img class="component__technology-icon" src="assets/js.png" alt="JavaScript icon">
+        <p>
+          All you need is a simple chart, but <strong>React</strong> versions are not free?
+          Try searching in other technologies, such as vanilla <strong>JavaScript</strong> and embed the component into
+          <strong>React</strong>!
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="component__presentation">
-    <div class="component__container">
-      <div class="component component--main" id="js-gantt"></div>
-      <img class="circle--big" alt="Circle background" src="assets/circle.svg">
-    </div>
-    <div class="component__description">
-      <img class="component__technology-icon" src="assets/js.png" alt="JavaScript icon">
-      <p>
-        All you need is a simple chart, but <strong>React</strong> versions are not free?
-        Try searching in other technologies, such as vanilla <strong>JavaScript</strong> and embed the component into
-        <strong>React</strong>!
-      </p>
-    </div>
-  </div>
+  </section>
+
 
   <section class="code__example">
     <h2>How does micro-connect work?</h2>
@@ -96,11 +117,11 @@
   <section class="see__more">
     <h3>See more</h3>
     <div class="see__more__buttons">
-      <a class="button button--grey" href="./documentation">Documentation</a>
       <a class="button button--black" href="https://github.com/lukasz-starosta/micro-connect" target="_blank">GitHub</a>
     </div>
   </section>
 </main>
+<div id="notifications-container"></div>
 <img class="circle--footer" alt="Circle background" src="assets/circle.svg">
 <footer>Author: Łukasz Starosta, 2020</footer>
 <script src="index.js"></script></body>
