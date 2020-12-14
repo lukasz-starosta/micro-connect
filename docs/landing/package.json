@@ -20,7 +20,8 @@
     "@lukasz-starosta/micro-connect": "^0.2.0",
     "@lukasz-starosta/react-calendar": "^0.1.4",
     "@lukasz-starosta/react-calendar-0.1.0": "npm:@lukasz-starosta/react-calendar@^0.1.0",
-    "@lukasz-starosta/react-notifications": "^0.1.0"
+    "@lukasz-starosta/react-notifications": "^0.1.0",
+    "@lukasz-starosta/react-todo": "^0.1.5"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^6.3.2",

@@ -3,6 +3,12 @@
     border: 2px solid transparent;
 }
 
+.component h3 {
+    font-size: 1.5rem;
+    margin-left: 1rem !important;
+    color: #898989;
+}
+
 .component--navbar {
     height: 40px;
 }
