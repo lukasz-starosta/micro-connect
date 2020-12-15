@@ -59,7 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 6rem;
+    padding: 0 2rem;
 }
 
 .component--main {
@@ -80,6 +80,16 @@
     font-size: 1.5em;
     color: #444;
     padding: 0 1rem;
+}
+
+.component__description a {
+    color: #333;
+}
+
+.component__description-img {
+    max-width: 720px;
+    margin: 0 auto;
+    display: block;
 }
 
 .component__technology-icon {

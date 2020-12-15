@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Poppins, sans-serif;
     overflow-x: hidden;
     position: relative;
 }
@@ -25,8 +25,20 @@ h2 {
 
 h3 {
     font-size: 2rem;
+    font-weight: 500;
     line-height: 1.2em;
     color: #7a7a7a;
+}
+
+h4 {
+    margin: 0.5rem;
+    color: #3c3c3c;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 @keyframes show {

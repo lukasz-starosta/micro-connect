@@ -14,5 +14,8 @@
     <orderEntry type="module" module-name="angular-card-input" />
     <orderEntry type="module" module-name="react-calendar" />
     <orderEntry type="module" module-name="js-gantt" />
+    <orderEntry type="module" module-name="react-notifications" />
+    <orderEntry type="module" module-name="angular-trend" />
+    <orderEntry type="module" module-name="react-todo" />
   </component>
 </module>
