@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import ReactComponent from '@lukasz-starosta/typescript-react-starter';
+import AngularComponent from '@lukasz-starosta/angular-starter';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,9 @@ import ReactComponent from '@lukasz-starosta/typescript-react-starter';
 export class AppComponent implements OnInit {
   title = 'ng-host';
   ngOnInit() {
-    const root = document.getElementById('component-root');
-    ReactComponent.mount(root);
+    const reactRoot = document.getElementById('react-component-root');
+    ReactComponent.mount(reactRoot);
+    const angularRoot = document.getElementById('angular-component-root');
+    AngularComponent.mount(angularRoot);
   }
 }

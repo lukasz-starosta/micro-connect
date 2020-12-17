@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~10.2.0",
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
+    "@lukasz-starosta/angular-starter": "^0.1.2",
     "@lukasz-starosta/react-calendar": "^0.1.4",
     "@lukasz-starosta/typescript-react-starter": "^0.1.5",
     "rxjs": "~6.6.0",
