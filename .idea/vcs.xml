@@ -3,7 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../angular-card-input" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../angular-sidebar" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../angular-trend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../js-gantt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../js-navbar" vcs="Git" />
