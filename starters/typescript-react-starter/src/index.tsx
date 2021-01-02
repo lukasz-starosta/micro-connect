@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {ComponentWrapper} from "@lukasz-starosta/micro-connect";
+import {ComponentWrapper, IMountElementProps} from "@lukasz-starosta/micro-connect";
 import App from "./App";
-import {IMountElementProps} from "@lukasz-starosta/micro-connect";
 import {name, version} from '../package.json';
 
 if (process.env.NODE_ENV === 'development') {

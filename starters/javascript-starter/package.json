@@ -1,6 +1,6 @@
 {
   "name": "@lukasz-starosta/javascript-starter",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "JavaScript starter",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -10,14 +10,14 @@
   "scripts": {
     "prepare": "npm run build",
     "start": "webpack-dev-server --env.entry=./src/index.js --config=./node_modules/@lukasz-starosta/micro-connect/webpack.config.js",
-    "build": "webpack --env.production --env.entry=./src/index.js  --env.library=javascript-starter --config=./node_modules/@lukasz-starosta/micro-connect/webpack.config.js"
+    "build": "webpack --env.production --env.entry=./src/index.js  --env.library=@lukasz-starosta/javascript-starter --config=./node_modules/@lukasz-starosta/micro-connect/webpack.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukasz-starosta/micro-connect.git"
   },
   "dependencies": {
-    "@lukasz-starosta/micro-connect": "^0.2.0",
+    "@lukasz-starosta/micro-connect": "^1.0.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
