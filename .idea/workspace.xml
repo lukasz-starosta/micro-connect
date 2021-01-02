@@ -24,72 +24,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc5d3fc7-f9e0-45bf-9eea-17c963967bed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/src/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/src/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/host/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/react-host/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-host/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plain-host/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/plain-host/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plain-host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/plain-host/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plain-host/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/plain-host/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plain-host/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/plain-host/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/src/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-host/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hosts/vue-host/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/assets/js-export.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/assets/js-export.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/landing/src/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing/src/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starters/javascript-starter/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/starters/javascript-starter/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,9 +61,10 @@
         <entry key="$PROJECT_DIR$/../react-calendar" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../react-calendar" />
   </component>
   <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/../angular-trend/package.json" />
     <dismissed value="$PROJECT_DIR$/../react-calendar/package.json" />
   </component>
   <component name="ProjectId" id="1jduOmDZnXZ5kME35n4RjZrWUBi" />
@@ -144,7 +86,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="D:\WebDevelopment\Projekty\Moje\Inzynierka\angular-card-input\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\WebDevelopment\Projekty\Moje\Inzynierka\aplikacja\angular-card-input\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -259,77 +201,17 @@
       <workItem from="1607958993963" duration="10409000" />
       <workItem from="1608066150826" duration="4687000" />
       <workItem from="1608231821778" duration="8557000" />
-      <workItem from="1608287733114" duration="1504000" />
-    </task>
-    <task id="LOCAL-00030" summary="Rename to angular-card-input">
-      <created>1606933984701</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1606933984701</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Rename to angular-card-input">
-      <created>1606935128207</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1606935128207</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Resolve package json">
-      <created>1606935292270</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1606935292270</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Add angular card input">
-      <created>1606936563731</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1606936563731</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Initial publish of 0.1.0 with the full component">
-      <created>1607018408036</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1607018408036</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Add react-calendar">
-      <created>1607018524322</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1607018524322</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Add sass loader and file loader support">
-      <created>1607025407208</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1607025407208</updated>
-    </task>
-    <task id="LOCAL-00037" summary="JS gantt complete example">
-      <created>1607025980111</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1607025980111</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Add js gantt component, fix styles">
-      <created>1607027237061</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1607027237061</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Fix z-index to hide border under component">
-      <created>1607027749619</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1607027749619</updated>
+      <workItem from="1608287733114" duration="3511000" />
+      <workItem from="1608387492773" duration="3148000" />
+      <workItem from="1608468919709" duration="4081000" />
+      <workItem from="1608542307388" duration="753000" />
+      <workItem from="1608570526722" duration="2808000" />
+      <workItem from="1608977629127" duration="2394000" />
+      <workItem from="1609067255897" duration="8168000" />
+      <workItem from="1609184233114" duration="4829000" />
+      <workItem from="1609259578036" duration="4339000" />
+      <workItem from="1609350238593" duration="4068000" />
+      <workItem from="1609603385281" duration="2662000" />
     </task>
     <task id="LOCAL-00040" summary="Styled events">
       <created>1607546156383</created>
@@ -604,7 +486,77 @@
       <option name="project" value="LOCAL" />
       <updated>1608240100279</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Move hosts to hosts folder">
+      <created>1608289735101</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1608289735101</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Removed micro-connect lib from landing deps as it is not necessary in every host">
+      <created>1608388432440</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1608388432441</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Cleared up mounting elements">
+      <created>1609079697470</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1609079697471</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Remove prefix from library">
+      <created>1609603524473</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1609603524473</updated>
+    </task>
+    <task id="LOCAL-00083" summary="v1.0.0npm">
+      <created>1609603678651</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1609603678651</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Install latest lib version">
+      <created>1609604221532</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1609604221532</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Remove documentation from links">
+      <created>1609604474309</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1609604474309</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Remove documentation from links">
+      <created>1609604491524</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1609604491524</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Remove documentation from links">
+      <created>1609604515312</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1609604515312</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Remove documentation from links">
+      <created>1609605184518</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1609605184518</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,13 +591,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../angular-sidebar" />
     </ignored-roots>
-    <MESSAGE value="Export centering function with parentElement" />
-    <MESSAGE value="Allow to clear selected event" />
-    <MESSAGE value="Handle working with multiple events and components" />
-    <MESSAGE value="Created angular trend with axes" />
-    <MESSAGE value="Added angular-trend" />
-    <MESSAGE value="Created a to-do app with notification" />
-    <MESSAGE value="Changed package.json files" />
     <MESSAGE value="Added title" />
     <MESSAGE value="Using increased specificity" />
     <MESSAGE value="Add postcss specificity increase" />
@@ -664,7 +609,14 @@
     <MESSAGE value="add vue-host" />
     <MESSAGE value="Disallow dragging on firefox - it breaks the chart" />
     <MESSAGE value="Installed latest js-gantt with firefox fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed latest js-gantt with firefox fix" />
+    <MESSAGE value="Move hosts to hosts folder" />
+    <MESSAGE value="Removed micro-connect lib from landing deps as it is not necessary in every host" />
+    <MESSAGE value="Cleared up mounting elements" />
+    <MESSAGE value="Remove prefix from library" />
+    <MESSAGE value="v1.0.0" />
+    <MESSAGE value="Install latest lib version" />
+    <MESSAGE value="Remove documentation from links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove documentation from links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="761" y="32" key="#HTML" timestamp="1606683845943">
@@ -751,18 +703,20 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.3.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1604338509738" />
-    <state x="703" y="227" key="RollbackChangesDialog" timestamp="1608238396207">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1217" y="227" key="RollbackChangesDialog" timestamp="1609604184303">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="-1217" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1609604184303" />
     <state x="703" y="227" key="RollbackChangesDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608238396207" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1608287887041">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608287887041" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1608240105798">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1608388435676">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608240105798" />
+    <state x="-1368" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1608289740917" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1608388435676" />
     <state x="667" y="258" width="663" height="592" key="find.popup" timestamp="1608069263331">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

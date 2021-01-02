@@ -17,7 +17,7 @@
     "@lukasz-starosta/angular-trend": "^0.1.0",
     "@lukasz-starosta/js-gantt": "^0.1.6",
     "@lukasz-starosta/js-gantt-0.1.1": "npm:@lukasz-starosta/js-gantt@^0.1.1",
-    "@lukasz-starosta/js-navbar": "^0.1.3",
+    "@lukasz-starosta/js-navbar": "^0.1.5",
     "@lukasz-starosta/react-calendar": "^0.1.4",
     "@lukasz-starosta/react-calendar-0.1.0": "npm:@lukasz-starosta/react-calendar@^0.1.0",
     "@lukasz-starosta/react-notifications": "^0.1.1",
@@ -31,6 +31,7 @@
     "html-webpack-plugin": "^4.5.0",
     "path": "^0.12.7",
     "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
     "webpack-dev-server": "^3.11.0"
   }
 }
