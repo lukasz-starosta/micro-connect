@@ -17,7 +17,7 @@
     "@lukasz-starosta/angular-trend": "^0.1.0",
     "@lukasz-starosta/js-gantt": "^0.1.6",
     "@lukasz-starosta/js-gantt-0.1.1": "npm:@lukasz-starosta/js-gantt@^0.1.1",
-    "@lukasz-starosta/js-navbar": "^0.1.5",
+    "@lukasz-starosta/js-navbar": "^0.1.7",
     "@lukasz-starosta/react-calendar": "^0.1.4",
     "@lukasz-starosta/react-calendar-0.1.0": "npm:@lukasz-starosta/react-calendar@^0.1.0",
     "@lukasz-starosta/react-notifications": "^0.1.1",
