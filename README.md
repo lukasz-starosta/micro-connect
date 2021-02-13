@@ -1,5 +1,8 @@
 # micro-connect
 
+# Live demo
+[https://lukasz-starosta.github.io/micro-connect](micro-connect page)
+
 ## Formal description
   
 Polish:
